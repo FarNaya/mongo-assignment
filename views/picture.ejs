@@ -1,0 +1,11 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+
+<figure>
+    <img src="/images/full/<%= image.fileName %>" alt="<%= image.title %>" class="large">
+<figcaption>
+    <h1><%= image.attribution.credit %></h1>
+</figcaption>
+</figure>
+
+<%- include('partials/footer') %>

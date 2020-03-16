@@ -1,0 +1,30 @@
+{
+  "name": "mongodb-mongoose-assignment-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.4",
+    "node": "^13.10.1",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarNaya/mongodb-mongoose-assignment-03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarNaya/mongodb-mongoose-assignment-03/issues"
+  },
+  "homepage": "https://github.com/FarNaya/mongodb-mongoose-assignment-03#readme"
+}

@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<%- include('partials/nav') %>
+
+<% for (story of images)  { %>
+<figure>
+  <a href="pictures/<%= story._id %>">
+    <img src="images/sm/<%= story.fileName %>" src-set="images/sm/<%= story.fileName %> 320w, images/md/<%= story.fileName %> 640w, images/lrg/<%= story.fileName %> 1024w" alt="<%= story.title %>" class="large"></a>
+  <figcaption>
+    <h1><%= story.attribution.credit %></h1>
+  </figcaption>
+</figure>
+<% } %>
+
+<%- include('partials/footer') %>
